@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import TestFunct from './test';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <TestFunct />
   </React.StrictMode>,
   document.getElementById('root')
 );
