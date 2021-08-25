@@ -1,0 +1,23 @@
+.left {
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    left: 0;
+    top: 0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+.right {
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(30, 255, 0);
+    left: 100px;
+    top: 0;
+    position: fixed;
+}
+
+
+

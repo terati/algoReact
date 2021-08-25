@@ -1,0 +1,21 @@
+ul {
+    background-color: black;
+    list-style-type: none;
+}
+
+li.ls {
+    float: center;
+  }
+  
+li a.ls {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.nav {
+    /* background-color: black; */
+    color: white;
+}
