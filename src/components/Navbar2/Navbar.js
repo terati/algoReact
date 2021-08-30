@@ -13,9 +13,10 @@ function Navbar() {
     const retractSidebar = () => setSidebar(0);
     return (
         <>
+            <nav>
             <IconContext.Provider value={{ color: '#fff' }}>
-                <div className='navbar'>
-                    <div className='left' onMouseOver={extendSidebar}>
+                <div className='navbar' onMouseOver={extendSidebar} onMouseOut={retractSidebar} >
+                    <div className='left' >
                         <ul className='nav-menu-items'>
                             {SidebarData.map((item, index) => {
                                 return (
@@ -30,7 +31,7 @@ function Navbar() {
                     </div>
 
 
-                    <div className={sidebar ? 'right right_active' : 'right right_inactive'} onMouseOut={retractSidebar}>
+                    <div className={sidebar ? 'right right_active' : 'right right_inactive'} >
                     <ul className='nav-menu-items_right'>
                             {SidebarData.map((item, index) => {
                                 return (
@@ -60,6 +61,7 @@ function Navbar() {
                     </nav> */}
                 </div>
             </IconContext.Provider>
+            </nav>
         </>
     )
 }

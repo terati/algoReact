@@ -11,6 +11,7 @@
     width: 50px;
     transition: 600ms;
     transition-timing-function: ease-in;
+    z-index: 5;
 }
 
 .nav-menu.active {
@@ -113,12 +114,12 @@ span {
 
 .right_active {
     left: 50px;
-    transition: 600ms;
-    transition-timing-function: ease-out;
+    transition: 800ms;
+    transition-timing-function: ease;
 }
 
 .right_inactive {
     left: -100%;
-    transition: 600ms;
-    transition-timing-function: ease-in;
+    transition: 800ms;
+    transition-timing-function: linear;
 }
