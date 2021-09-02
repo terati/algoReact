@@ -12,6 +12,7 @@ import AboutSection from './components/AboutSection/AboutSection';
 import PhotoFlip from './components/PhotoFlip/PhotoFlip';
 import Footer from './components/Footer/Footer';
 import './App.css'
+import NewsReel from './components/NewsReel/NewsReel';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <AboutSection />
       <PhotoFlip />
+      <NewsReel />
     {/* <Test /> */}
     {/* <Router>
       <Navbar />

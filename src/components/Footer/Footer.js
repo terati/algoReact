@@ -3,9 +3,10 @@ import './Footer.css';
 
 function Footer() {
     return (
+        <>
         <div className='footer'>
             <div className='sect'>
-                <div className='title'>
+                <div className='title1'>
                     <b>In-House Resources</b>
                 </div>
                 <div> 
@@ -16,7 +17,7 @@ function Footer() {
             </div>
 
             <div className='sect'>
-                <div className='title'>
+                <div className='title1'>
                     <b>Client Resources</b>
                 </div>
                 <div> 
@@ -30,7 +31,7 @@ function Footer() {
             </div>
 
             <div className='sect'> 
-                <div className='title'>
+                <div className='title1'>
                     <b>Consultant Resources</b>
                 </div>
                 <div> 
@@ -44,7 +45,7 @@ function Footer() {
             </div>
 
             <div className='sect'>
-                <div className='title'>
+                <div className='title1'>
                     <b>Information</b>
                 </div>
                 <div> 
@@ -58,7 +59,13 @@ function Footer() {
                     <a href='#'>Compliance Program Policies</a> <br/>
                 </div>
             </div>
+            
         </div>
+        
+        <div className='copyright'> 
+                ©2021  Insight Global, A Staffing Services Company. All rights reserved. Disclaimer: Insight Global is not affiliated with Insight Direct USA, Inc. or Insight.com.
+        </div>
+        </>
     )
 }
 

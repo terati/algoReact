@@ -21,7 +21,6 @@ const PhotoFlip = () => {
                 }
             })
         }, 5000)
-        console.log(timer);
         return () => {
             clearInterval(interval);
         }
